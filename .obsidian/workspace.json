@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a59bdfbc59e9fdec",
+        "id": "3fabeacf18fdafa8",
         "type": "tabs",
         "children": [
           {
-            "id": "439aa4d1955f5a0a",
+            "id": "5e2549cefe146e2f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "cdda2a22974af8eb",
@@ -138,9 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4448b0914c25005f",
+  "active": "5e2549cefe146e2f",
   "lastOpenFiles": [
-    "Logic",
-    "Algorithms"
+    "Notes/Algorithms/Big-O.md",
+    "Notes/Logic/Predicate-Logic.md",
+    "Templates/Core Idea.md",
+    "Templates",
+    "Notes",
+    "Notes/Logic",
+    "Notes/Algorithms"
   ]
 }
