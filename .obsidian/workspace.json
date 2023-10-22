@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0035b818f056dd07",
+        "id": "a0e3eb95517f2261",
         "type": "tabs",
         "children": [
           {
-            "id": "224c416db3f3b651",
+            "id": "4d24b6aea3cc7d92",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,10 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "224c416db3f3b651",
+  "active": "4d24b6aea3cc7d92",
   "lastOpenFiles": [
-    "2023-10-21.md",
     "Notes/Logic/Tips_for_logic_exam.md",
+    "2023-10-21.md",
     "Notes/Requests_Library.md",
     "Notes/Logic",
     "Notes/Algorithms/Big-O.md",
