@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Logic/Tips_for_logic_exam.md",
+                "file": "Notes/Algorithms/Tips_for_Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Logic/Tips_for_logic_exam.md",
+                "file": "Notes/Algorithms/Tips_for_Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Logic/Tips_for_logic_exam.md",
+                "file": "Notes/Algorithms/Tips_for_Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Logic/Tips_for_logic_exam.md"
+                "file": "Notes/Algorithms/Tips_for_Algorithms.md"
               }
             }
           }
@@ -149,9 +149,9 @@
   },
   "active": "7552042ed7630271",
   "lastOpenFiles": [
+    "Notes/Logic/Tips_for_logic_exam.md",
     "Untitled.canvas",
     "Notes/Algorithms/Tips_for_Algorithms.md",
-    "Notes/Logic/Tips_for_logic_exam.md",
     "2023-10-21.md",
     "Notes/Requests_Library.md",
     "Notes/Logic",
