@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "21e8f1d47131405f",
+        "id": "29dbebf05721f172",
         "type": "tabs",
         "children": [
           {
-            "id": "7552042ed7630271",
+            "id": "b670e4212880036b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Algorithms/Tips_for_Algorithms.md",
+                "file": "Notes/Data Science and AI.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "cdda2a22974af8eb",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Algorithms/Tips_for_Algorithms.md",
+                "file": "Notes/Data Science and AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Algorithms/Tips_for_Algorithms.md",
+                "file": "Notes/Data Science and AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Algorithms/Tips_for_Algorithms.md"
+                "file": "Notes/Data Science and AI.md"
               }
             }
           }
@@ -147,15 +146,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7552042ed7630271",
+  "active": "4448b0914c25005f",
   "lastOpenFiles": [
-    "Notes/Logic/Tips_for_logic_exam.md",
-    "Untitled.canvas",
-    "Notes/Algorithms/Tips_for_Algorithms.md",
-    "2023-10-21.md",
+    "Notes/Data Science and AI.md",
+    "Notes/Approximation_Algorithms.md",
+    "Notes/Big-O.md",
+    "Untitled.md",
+    "Untitled 1.md",
     "Notes/Requests_Library.md",
+    "Notes/Tips_for_Algorithms.md",
+    "Notes/Tips_for_logic_exam.md",
+    "Untitled.canvas",
+    "2023-10-21.md",
     "Notes/Logic",
-    "Notes/Algorithms/Big-O.md",
     "Notes/Logic/Predicate-Logic.md",
     "Templates/Core Idea.md",
     "Templates",
