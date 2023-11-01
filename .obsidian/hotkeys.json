@@ -13,5 +13,17 @@
       "key": "F1"
     }
   ],
+<<<<<<< Updated upstream
   "app:open-help": []
+=======
+  "app:open-help": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ]
+>>>>>>> Stashed changes
 }
