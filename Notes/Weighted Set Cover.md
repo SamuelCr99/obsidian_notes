@@ -2,7 +2,7 @@
 
 Status: #idea
 
-Tags:
+Tags: [[Algorithms]]
 
 # Weighted Set Cover
 Given a set U, with |U| = n. Find a family C of sets $S_i$ such that the union of $S_i$ is U while minimizing the weight. This is a very general problem and therefore it would be great if we had a good algorithm for it. This problem is NP complete. It can be reduced from vertex cover. 

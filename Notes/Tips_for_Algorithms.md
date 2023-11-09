@@ -2,7 +2,7 @@
 
 Status: #idea
 
-Tags:
+Tags: [[Algorithms]]
 
 # Tips for Algorithms
 ## Graphs

@@ -1,4 +1,4 @@
-20231030 - 12:44
+220231030 - 12:44
 
 Status: #idea
 
@@ -22,11 +22,6 @@ $T_l$ = load of machine l. i = machine with max load $(T=T_i)$. j=last job on ma
 $\forall l: T-t_j \leq T_l$. $mT - mt_j \leq \sum_{k=1}^n t_k$. We can keep rewriting this until we reach $T/T^* \leq 2$. Clearly this is not great. So can this be improved by a better ordering? Maybe we can sort the jobs such that the processing times decrease. Then apply the greedy algorithm to the new sorted array. We have to find the right way of approaching this. First assume that there are more jobs than machines, otherwise this is trivial. Assume that the machine i does at least 2 jobs. j $\geq$ m+1. So $T^* \geq 2*t_j$ so $T \leq \frac{3}{2}T^*$. So this is clearly better than the value we found previously. 
 
 ### Vertex Cover
-G = (V,E) graph. Vertex cover is $C \subseteq V$ such that the nodes are incident to all nodes. 
-ADD IMAGE 2. 
-
-This is also a NP-complete problem, but it can be approximated well! Matching: M $\subseteq$ E, pairwise disjoint. So edges which do not share a node. 
-
 We will approach the algorithm in the following way. Compute a maximal matching M. In this case maximal means that it can't be extended by adding another graph, NOT that it is of maximum size. We can find the maximal matching using a greedy algorithm. C := set of 2 | M| nodes in M. C is a vertex cover. $|C^*| \geq |M|$. $|C|=2|M| \leq 2|C^*|$. 
 
 
