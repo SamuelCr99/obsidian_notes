@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Flows.md",
+                "file": "Notes/Assignment 1 Advanced Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Flows.md",
+                "file": "Notes/Assignment 1 Advanced Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Flows.md",
+                "file": "Notes/Assignment 1 Advanced Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Flows.md"
+                "file": "Notes/Assignment 1 Advanced Algorithms.md"
               }
             }
           }
@@ -149,11 +149,11 @@
   },
   "active": "b62d00c2041811f5",
   "lastOpenFiles": [
+    "Notes/Assignment 1 Advanced Algorithms.md",
     "Notes/Flows.md",
     "Notes/Approximation_Algorithms.md",
     "Notes/Dominating Set.md",
     "Notes/Pricing Method.md",
-    "Notes/Assignment 1 Advanced Algorithms.md",
     "Notes/NumPy.md",
     "Notes/PTAS.md",
     "Notes/Python.md",
