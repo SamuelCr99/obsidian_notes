@@ -30,6 +30,11 @@ metric: d(x,x) = 0, d(x,y) = d(y,x). Triangle equality: d(x,z) $\leq$ d(x,y)+d(y
 
 Claim: If a solution with with radius r exists, then the algorithm finds a solutions with radius 2r.  
 
+#### [[Dominating Set]]
+Goal is to find the dominating set of minimum size. We can reduce dominating set to set cover problem. This is a $O(log n)$ approximation. 
+
+We can also reduce from set cover to dominating set. Given u, |u| = n, sets $S_i \in u (i \in I)$. Construct: Graph G = (V,E), V := $u \cup I$. And E containing all edges ij, where $i \in I$, $u \in U$, $u \in S_{i,j}$,  and $ij, i \in I, j \in I$. Set cover with k sets exists is equivalent to dominate set with k nodes exist in G. 
+
 
 \-\-\-
 # References

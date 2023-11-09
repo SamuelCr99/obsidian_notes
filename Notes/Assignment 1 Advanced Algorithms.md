@@ -6,11 +6,9 @@ Computer Science - Algorithms, Languages and Logic (Year 1)
 
 # Exercise 1
 #### Suggested Algorithm
-* Select a random node in the graph
-* If node has more than c-1 edges, delete that node and all their incident edges. 
-* Then perform a BFS search from this node, deleting any node which has more than c-1 edges. 
-* While doing this keep track of all nodes which have been visited by the BFS. 
-* If BFS queue becomes empty select a new random node in the graph which has not been been previously visited. 
+* Perform a BFS search to find the size of the connected component. 
+* If the size of the connected component is larger than c then remove the node with highest degree along with its connected edges. 
+* Then keep performing this opperation until no 
 
 #### Time Analysis
 * This will depend on if an adjacency list or an adjacency matrix is used to keep track of connections in graph. I will assume a adjacency list is used. 
@@ -21,6 +19,7 @@ Computer Science - Algorithms, Languages and Logic (Year 1)
 
 #### Approximation Analysis
 * In each connected we will have one of two different scenarios, either the the connected component has less c or less nodes. Or it has more than c nodes. 
+* If a connected component has c or less nodes then we will not delete any nodes, thus this approximated 
 * In the former scenario we don't have to remove any nodes, in the latter at least 1 node has to be deleted. 
 
 #### Assumptions
@@ -28,7 +27,7 @@ Computer Science - Algorithms, Languages and Logic (Year 1)
 * I assume a adjacency list is used to keep track of connections in graph. 
 # Exercise 2
 #### Background 
-* Consider a 1 dimensional line with a number of points, maybe a street with houses. How do we successfully choose a point on this graph such that the  
+* Consider a 1 dimensional line with a number of points, maybe a street with houses. How do we successfully choose a point on this graph such that the distance from each point  
 #### Suggested Algorithm 
 * We will consider the X axis and the Y axis independently. 
 * For each axis, iterate over the available points and find which point which minimizes the overall cost. The point we find will be the correct point in that axis. 
@@ -41,5 +40,5 @@ Computer Science - Algorithms, Languages and Logic (Year 1)
 
 
 
-#### Final question 
+#### Question for grader
 Is this a good way of approaching these assignments, or should I change the format in some way for coming assignments? 
