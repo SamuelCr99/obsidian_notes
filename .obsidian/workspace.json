@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "759e86cbeabebbc7",
+        "id": "f415af7fcc0093d9",
         "type": "tabs",
         "children": [
           {
-            "id": "b62d00c2041811f5",
+            "id": "7bae15e95a14bfe7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Assignment 1 Advanced Algorithms.md",
+                "file": "Notes/Survey Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Assignment 1 Advanced Algorithms.md",
+                "file": "Notes/Survey Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Assignment 1 Advanced Algorithms.md",
+                "file": "Notes/Survey Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Assignment 1 Advanced Algorithms.md"
+                "file": "Notes/Survey Design.md"
               }
             }
           }
@@ -147,10 +147,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b62d00c2041811f5",
+  "active": "7bae15e95a14bfe7",
   "lastOpenFiles": [
-    "Notes/Assignment 1 Advanced Algorithms.md",
     "Notes/Flows.md",
+    "Notes/Survey Design.md",
+    "Notes/Disconnecting Edge Sets.md",
+    "Notes/Edge Disjoint Paths.md",
+    "Notes/Bipartite Matching.md",
+    "Notes/Bipartite Graph.md",
+    "Notes/Assignment 1 Advanced Algorithms.md",
     "Notes/Approximation_Algorithms.md",
     "Notes/Dominating Set.md",
     "Notes/Pricing Method.md",
@@ -176,12 +181,8 @@
     "Images/data_structures.png",
     "Images/anscombes_quartet.png",
     "Images",
-    "Untitled 1.md",
     "Untitled.canvas",
-    "2023-10-21.md",
     "Notes/Logic",
-    "Notes/Logic/Predicate-Logic.md",
-    "Templates/Core Idea.md",
     "Templates",
     "Notes",
     "Notes/Logic",

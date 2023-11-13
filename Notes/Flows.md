@@ -50,5 +50,27 @@ $f^+(S) = \sum_{e=(u,v), u \in s, v \not\in s}(e)$
 
 $val(f) \leq f^+(A) = \sum f(e)$
 
+
+## Applications of flows
+* [[Bipartite Matching]]
+* [[Edge Disjoint Paths]]
+* [[Disconnecting Edge Sets]]
+* [[Survey Design]]
+
+# Flows with demands
+Given a directed graph G. $0 \leq l_e \leq c_e$ for every $e \in E$. $d(v)$: Demand of $v \in V$.  We can now define these new flows as: $$f: E \rightarrow R^{\geq 0}$$This is a circulation if $\forall e \in E: l_e \leq f(e) \leq c_e$ and  
+$\forall v \in V: f^-(v)-f^+(v)=d(v)$. 
+
+$S = \{v | d(v) < 0\}, T=\{v | d(v) > 0$. 
+A first question is if a circulation exists? 
+
+This can be split into a number of different cases. 
+
+Case $\forall e: l_e = 0$, this gives us $\sum_{v \in V}d(v) = 0$, then we get $d := \sum_{v \in T}d(v) = -\sum_{v \in S}d(v)$. Here we also have the following constraints: $d > 0, S \neq \emptyset, T \neq \emptyset$. 
+
+CF-red, see slides for this
+
+We also have a general case. 
+
 \-\-\-
 # References
