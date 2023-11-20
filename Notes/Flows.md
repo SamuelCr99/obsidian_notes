@@ -72,5 +72,8 @@ CF-red, see slides for this
 
 We also have a general case. 
 
+## Applications of flows with demands
+* [[Airline Scheduling]]
+
 \-\-\-
 # References

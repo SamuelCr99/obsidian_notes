@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Survey Design.md",
+                "file": "Notes/Minimum Cut.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "cdda2a22974af8eb",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Survey Design.md",
+                "file": "Notes/Minimum Cut.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Survey Design.md",
+                "file": "Notes/Minimum Cut.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Survey Design.md"
+                "file": "Notes/Minimum Cut.md"
               }
             }
           }
@@ -150,6 +151,11 @@
   "active": "7bae15e95a14bfe7",
   "lastOpenFiles": [
     "Notes/Flows.md",
+    "Notes/Minimum Cut.md",
+    "Notes/Randomized Algorithms.md",
+    "Notes/Project Selection.md",
+    "Notes/Image Segmentation.md",
+    "Notes/Airline Scheduling.md",
     "Notes/Survey Design.md",
     "Notes/Disconnecting Edge Sets.md",
     "Notes/Edge Disjoint Paths.md",
@@ -170,11 +176,6 @@
     "Notes/Weighted Set Cover.md",
     "Notes/Vertex Cover.md",
     "Notes/Linear Programming.md",
-    "Notes/Knapsack.md",
-    "Notes/Big-O.md",
-    "Notes/Data Science and AI.md",
-    "Notes/Matplotlib.md",
-    "Notes/Pandas.md",
     "Images/violin_plot.png",
     "Images/stratification.png",
     "Images/gdp_csv.png",
