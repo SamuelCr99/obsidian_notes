@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Minimum Cut.md",
+                "file": "Notes/Assignment 2 Advanced Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Minimum Cut.md",
+                "file": "Notes/Assignment 2 Advanced Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Minimum Cut.md",
+                "file": "Notes/Assignment 2 Advanced Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Minimum Cut.md"
+                "file": "Notes/Assignment 2 Advanced Algorithms.md"
               }
             }
           }
@@ -151,6 +151,7 @@
   "active": "7bae15e95a14bfe7",
   "lastOpenFiles": [
     "Notes/Flows.md",
+    "Notes/Assignment 2 Advanced Algorithms.md",
     "Notes/Minimum Cut.md",
     "Notes/Randomized Algorithms.md",
     "Notes/Project Selection.md",
@@ -175,7 +176,6 @@
     "Notes/Tips_for_logic_exam.md",
     "Notes/Weighted Set Cover.md",
     "Notes/Vertex Cover.md",
-    "Notes/Linear Programming.md",
     "Images/violin_plot.png",
     "Images/stratification.png",
     "Images/gdp_csv.png",
