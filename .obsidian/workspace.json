@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f415af7fcc0093d9",
+        "id": "29dbebf05721f172",
         "type": "tabs",
         "children": [
           {
-            "id": "7bae15e95a14bfe7",
+            "id": "b670e4212880036b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -130,8 +130,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -148,34 +147,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7bae15e95a14bfe7",
+  "active": "b670e4212880036b",
   "lastOpenFiles": [
     "Notes/Flows.md",
     "Notes/Assignment 2 Advanced Algorithms.md",
     "Notes/Minimum Cut.md",
+    "Notes/Approximation_Algorithms.md",
+    "Notes/Statistical methods in data science and AI.md",
+    "Notes/Clustering.md",
     "Notes/Randomized Algorithms.md",
     "Notes/Project Selection.md",
+    "Notes/Minimum Cut.md",
     "Notes/Image Segmentation.md",
     "Notes/Airline Scheduling.md",
+    "Notes/Assignment 1 Advanced Algorithms.md",
+    "Notes/Vertex Cover.md",
     "Notes/Survey Design.md",
-    "Notes/Disconnecting Edge Sets.md",
+    "Notes/PTAS.md",
+    "Notes/Linear Programming.md",
+    "Notes/Knapsack.md",
+    "Notes/Flows.md",
     "Notes/Edge Disjoint Paths.md",
+    "Notes/Dominating Set.md",
+    "Notes/Disconnecting Edge Sets.md",
     "Notes/Bipartite Matching.md",
     "Notes/Bipartite Graph.md",
-    "Notes/Assignment 1 Advanced Algorithms.md",
-    "Notes/Approximation_Algorithms.md",
-    "Notes/Dominating Set.md",
     "Notes/Pricing Method.md",
-    "Notes/NumPy.md",
-    "Notes/PTAS.md",
-    "Notes/Python.md",
-    "Notes/Requests_Library.md",
-    "Notes/SciPy.md",
-    "Notes/Seaborn.md",
-    "Notes/Tips_for_Algorithms.md",
-    "Notes/Tips_for_logic_exam.md",
     "Notes/Weighted Set Cover.md",
     "Notes/Vertex Cover.md",
+    "Notes/Data Science and AI.md",
+    "Notes/Seaborn.md",
+    "Notes/SciPy.md",
+    "Notes/Python.md",
     "Images/violin_plot.png",
     "Images/stratification.png",
     "Images/gdp_csv.png",
