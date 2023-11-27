@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "29dbebf05721f172",
+        "id": "d9bbd1fda2ac9f2a",
         "type": "tabs",
         "children": [
           {
-            "id": "b670e4212880036b",
+            "id": "a1c6cbf9872a3d19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Assignment 2 Advanced Algorithms.md",
+                "file": "Notes/K-path problem.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "cdda2a22974af8eb",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Assignment 2 Advanced Algorithms.md",
+                "file": "Notes/K-path problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Assignment 2 Advanced Algorithms.md",
+                "file": "Notes/K-path problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Assignment 2 Advanced Algorithms.md"
+                "file": "Notes/K-path problem.md"
               }
             }
           }
@@ -147,12 +146,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b670e4212880036b",
+  "active": "a1c6cbf9872a3d19",
   "lastOpenFiles": [
-    "Notes/Flows.md",
-    "Notes/Assignment 2 Advanced Algorithms.md",
-    "Notes/Minimum Cut.md",
+    "Notes/Python.md",
+    "Notes/K-path problem.md",
+    "Images/k-path-tree.png",
+    "Images/kpath-color.png",
+    "Images/k-path.png",
+    "Images/k-path-len.png",
+    "Images/anscombes_quartet.png",
+    "Images/violin_plot.png",
+    "Images/stratification.png",
+    "Images/gdp_csv.png",
+    "Images/data_structures.png",
+    "Notes/Vertex Cover.md",
     "Notes/Approximation_Algorithms.md",
+    "Notes/Assignment 2 Advanced Algorithms.md",
+    "Notes/Flows.md",
+    "Notes/Minimum Cut.md",
     "Notes/Statistical methods in data science and AI.md",
     "Notes/Clustering.md",
     "Notes/Randomized Algorithms.md",
@@ -161,7 +172,6 @@
     "Notes/Image Segmentation.md",
     "Notes/Airline Scheduling.md",
     "Notes/Assignment 1 Advanced Algorithms.md",
-    "Notes/Vertex Cover.md",
     "Notes/Survey Design.md",
     "Notes/PTAS.md",
     "Notes/Linear Programming.md",
@@ -173,17 +183,6 @@
     "Notes/Bipartite Matching.md",
     "Notes/Bipartite Graph.md",
     "Notes/Pricing Method.md",
-    "Notes/Weighted Set Cover.md",
-    "Notes/Vertex Cover.md",
-    "Notes/Data Science and AI.md",
-    "Notes/Seaborn.md",
-    "Notes/SciPy.md",
-    "Notes/Python.md",
-    "Images/violin_plot.png",
-    "Images/stratification.png",
-    "Images/gdp_csv.png",
-    "Images/data_structures.png",
-    "Images/anscombes_quartet.png",
     "Images",
     "Untitled.canvas",
     "Notes/Logic",

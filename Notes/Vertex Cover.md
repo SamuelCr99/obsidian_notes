@@ -12,6 +12,8 @@ This is also a NP-complete problem, but it can be approximated well! Matching: M
 
 For  normal approximation see [[Approximation_Algorithms]]
 
+On small examples this can also be solved using FPT. This will give us $O(1.47^n*kn)$. This can be improved further using kernelization. If a node has more than k neighbors then we know that this node must be selected, along with the incident edges. This is known as a reduction rule and runs in polynomial time. After that we will have a remaining graph which we will call H. This remaining graph will have some nice properties: All degrees are at most k, we can also say H has at most $k^2$ edges, else no solution exists. After this clever change we have $O(1.47^k*k^2+kn)$. Kernel must be computable in polynomial time in n, and the size must only depend on k. This is removing the easy parts of a problem. 
+
 
 \-\-\-
 # References
