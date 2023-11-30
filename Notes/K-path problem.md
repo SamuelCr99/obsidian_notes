@@ -13,7 +13,7 @@ Goal: Find a path with exactly k nodes, such that the path does not cross itself
 
 This has application in biology. 
 
-Diameter in a graph is defined as the maximum shortest distance between any two point. If the diameter is at least k this becomes easy. As we know the shortest path can't cover itself. Therefore we can compute all diamaters and choose the largest one.  
+Diameter in a graph is defined as the maximum shortest distance between any two point. If the diameter is at least k this becomes easy. As we know the shortest path can't cover itself. Therefore we can compute all diameters and choose the largest one.  
 
 But this becomes harder if the largest diameter is not higher than k. Here we simply choose a node and start searching from there. This will build a search tree of depth k. Each node can have at most n children. So this will give us a time complexity of $O(n^k)$. Which is a XP time algorithm. We want to perform better than this. 
 

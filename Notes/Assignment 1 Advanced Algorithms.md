@@ -21,6 +21,10 @@ Computer Science - Algorithms, Languages and Logic (Year 1)
 #### Assumptions
 * There only exists 1 edge between a pair of nodes. 
 * I assume a adjacency list is used to keep track of connections in graph. 
+
+# Exercise 1 V2
+
+
 # Exercise 2
 #### Background 
 * Consider a 1 dimensional line with a number of points, maybe a street with houses. How do we successfully choose a point on this line such that the total distance traveled for all nodes to this selected point is minimal? I will make the claim that the best point to choose will always be one of houses, (note that there might be multiple points which are all equally good, but one of these will always be a point where a house is located). The reason for this is that we always can select one of the nodes in the middle to be the meeting location. If we move the meeting point to the left it will indeed make the trips shorter for all the neighbors who live to the left, but it will make the trip longer for all the neighbors who live on the right. The key thing to notice is that this change will make it as much longer for all the people living on the right as shorter for people living on the left. But now the person who previously had the meeting at there house also have to travel a distance, and thusly the total distance has increased (or stayed the same depending on the layout of the houses). 
