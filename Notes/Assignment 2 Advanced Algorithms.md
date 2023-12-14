@@ -17,6 +17,13 @@ We also know that $k \geq k_0$. From this fact we know that $d(s) \leq 0$ and $d
 ## 3.3 
 We will perform the CF-reduction. We know from 3.1 that having a flow with $val(f) = k$ is equivalent to the graph having a circulation. We also know from the lecture slides that a circulation only exists if all nodes to and from s' and t' are saturated. Therefore we can conclude that G has a flow if and only if J(k) saturates all edges connected to s' and t'.
 
+---
+We will perform the LZ-reduction on H(k). We will once again argue the equivalence in both directions. First we assume that G has a flow f with val(f) = k. In this case we know that at least k flow must leave the source node in G. In G(k) we will add the demands. 
+
+
+Now we will consider J(k), after the LZ reduction we have two new nodes, $s'$ and $t'$, these will connect to all nodes which were previously sources and sinks in H(k). We know that $c_e$ for all edges 
+
+
 # Exercise 4 
 We can calculate the maximum flow using the Edmond Karp algorithm. This will give us a upper bound. We also have a lower bound of 0. We can check if a flow value is feasible by applying the algorithm from exercise 3. From this we will use a binary search to find the smallest possible k which will not violate and lower or upper bounds. This will give us the smallest possible k which is a feasible flow. 
 
