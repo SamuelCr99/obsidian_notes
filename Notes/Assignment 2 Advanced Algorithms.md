@@ -1,5 +1,5 @@
 # Assignment 2 Advanced Algorithms
-Samuel Collier Ryder
+*Samuel* Collier Ryder
 collier@chalmers.se
 Computer Science - Algorithms, Languages and Logic (Year 1)
 # Exercise 3
@@ -15,26 +15,18 @@ From lectures we know that when applying the LZ-reduction we set the lower capac
 We also know that $k \geq k_0$. From this fact we know that $d(s) \leq 0$ and $d(t) \geq 0$ must hold. This as the updated demands for s and t will be $d(s) \leq d_{old}(s) + k_0$ and $d(t) \geq d_{old}(t) - k_0$. And as $d_{old}(s) = -k$ and $d_{new}(s)=k$ we know that $d(s) \leq 0$  and $d(t) \geq 0$. 
 
 ## 3.3 
-We will perform the CF-reduction. We know from 3.1 that having a flow with $val(f) = k$ is equivalent to the graph having a circulation. We also know from the lecture slides that a circulation only exists if all nodes to and from s' and t' are saturated. Therefore we can conclude that G has a flow if and only if J(k) saturates all edges connected to s' and t'.
+We will once again argue the equivalence in both directions. First we assume that G has a flow f with val(f) = k. In G we know that k flow leaves the source and k flow enters the sink. We then add the demands for G(k). In 3.2 we perform the LZ-reduction meaning that we remove all the lower capacities and update demand and upper capacities. Finally in the CF reduction we insert new nodes s and t and add new directed edges to all sinks and sources. We give all of these new edges capacities $-d(u)$ and $+d(u)$. As this new s and t will connect to the nodes which were created by the LZ reduction in 2.2. We know that the demands created after the LZ reduction are based on the maximum flow value. And these values then become the new lower capacities. So if we have a flow of value k we know that this will translate to the capacities of the edges connected to $s'$ and $t'$. So if we have a flow these edges must be saturated.   
 
----
-We will perform the LZ-reduction on H(k). We will once again argue the equivalence in both directions. First we assume that G has a flow f with val(f) = k. In this case we know that at least k flow must leave the source node in G. In G(k) we will add the demands. 
-
-
-Now we will consider J(k), after the LZ reduction we have two new nodes, $s'$ and $t'$, these will connect to all nodes which were previously sources and sinks in H(k). We know that $c_e$ for all edges 
-
+This also hold in the other direction. If the edges are saturated from $s'$ and $t'$ then there must also be a flow of value k in G, as the upper edge capacities are directly dependent on the value of k.  
 
 # Exercise 4 
-We can calculate the maximum flow using the Edmond Karp algorithm. This will give us a upper bound. We also have a lower bound of 0. We can check if a flow value is feasible by applying the algorithm from exercise 3. From this we will use a binary search to find the smallest possible k which will not violate and lower or upper bounds. This will give us the smallest possible k which is a feasible flow. 
+Start by considering the graph. Finding a maximum flow through a graph will not work if there are edges with a upper capacity of $\infty$. We must therefore substitute the upper capacities which are $\infty$ with a different value. I suggest all upper capacities which were previously set to $\infty$ are set to the sum of all the lower capacities. The reason for this suggestion is that when we are looking for the minimum possible flow later, the maximum which can be flow which will be sent across one edge will be the sum of lower capacities, this means that there is no need for any node to have a higher upper capacity than this. After this update has been done we can apply the Edmond Karp algorithm to find the maximum flow through this graph, we denote the found max flow as $k_{max}$. If no feasible flow exists we can return it at this stage. 
 
-The complexity for this algorithm will be $O(log(C) * V * E^2*(E+V))$ where C is the maximum flow possible in graph $G$. This clearly looks quite confusing so lets quickly break it down. The log(C) part will come from performing the binary search. Then in the binary search we will have to perform the algorithm from exercise 3. The algorithm from exercise 3 will first perform a reduction, this reduction will take $O(E+V)$ and then after this we will apply the Edmond Karp algorithm to find the maximum flow, which is $O(V*E^2)$. 
+Now we wish to find the smallest k which does not violate any of the constraints. We will test if a value of $k$ is feasible by applying the steps taken in exercise 3. We know that $k$ must be larger or equal to $k_0$ and smaller or equal to $k_{max}$. From here we can perform a binary search. Begin with testing $k = \frac{k_{max}}{k_0}$. Apply steps from exercise 3, if there exists a flow we will choose a new value of which in in the middle of $k$ and $k_0$ and if there does not exist a flow we instead choose a value in the middle of $k_{max}$ and $k_0$. We will keep searching until the search window becomes empty, while always keeping track of the smallest $k$ value found.  
 
-If the maximum flow in the graph is infinite we will have to approach this slightly differently. Instead of using binary search we will perform a linear search starting from 0. This will be valid as the minimum flow can't be infinite as the lower capacity of each edge is a finite value. This will make the complexity $O(C * V * E^2*(E+V))$. 
-
-This is of course the sub optimal solution which tests many candidate values for k. I would love a tip for the smarter version which does not simply test different values.  
 # Exercise 5
 ## 5.1
-We will transform A into a graph G by making the s node in A into a source, the t node into a sink. After this we will add $l_e$ and $c_e$ for all edges. All $l_e$ will be set to 1 and all $c_e$ will be set to the total number of nodes in the graph. 
+We will transform A into a graph G by making the s node in A into a source, the t node into a sink. After this we will add $l_e$ and $c_e$ for all edges. All $l_e$ will be set to 1 and all $c_e$ will be set to the sum of the lower bounds which is equal to the number of edges in this case. 
 
 The proposed algorithm will then be as follows: 
 * Check if any edges enter the source or exit the sink, if this is the case we can conclude that no solution exists. 
@@ -44,4 +36,6 @@ If we can solve Path Edge Cover for a given graph G then we can also solve minim
 
 We can also perform a transformation the other way around, this is done by removing the lower and upper bound from all edges. 
 ## 5.2
-The time complexity will be the same as found in exercise 4. The difference here is that we know the maximum possible flow through any graph with $n$ nodes would be $n^2$. Therefore we can rewrite the capacity as $O(log(V^2) * V * E^2*(E+V))$. 
+The time complexity will be the same as found in exercise 4. The difference here is that we know the maximum possible flow through any graph with $n$ nodes would be  $n^2$. Therefore we can rewrite the capacity as $O(log(V^2) * V * E^2*(E+V))$. 
+
+The complexity for this algorithm will be $O(log(E) * V * E^2*(E+V))$. This clearly looks quite confusing so lets quickly break it down. The $log(E)$ part will come from performing the binary search, as we know that the lower capacity is 1 and the upper capacity becomes the sum of all lower capacities which then equals the number of edges. Then in the binary search we will have to perform the steps from exercise 3. The algorithm from exercise 3 will first perform a number of reductions reduction, these reductions will take $O(E+V)$ and then after this we will apply the Edmond Karp algorithm to find the maximum flow, which is $O(V*E^2)$. 
