@@ -107,13 +107,12 @@ Motoori Norinaga gives Japan its own identity. He studied the Kojiki and didn't 
 
 Tokugawa Shogunate falls when the can't solve chronic deficit. The prestige of the regime declines. And traditional enemies band together and pose threat. At the same time there is mass famine and US fleets arrive (Matthew Perry). 
 
-
-## Meiji Period
+## Meiji Restoration
 1868-1945. New Meiji government. 
 
 Tokugawa shogunate falls. 
 
-Two groups are created. Sonno Joi - Revere the emperor and expel the barbarians (note that this is not the barbarians we are usually thinking of). And Kaikoko Sabaki: Open the country and aid the Shogunate. New slogan is "revere the emperor and expel the barbarians". Result is that Meiji emperor gets power. 
+Two groups are created. Sonno Joi - Revere the emperor and expel the barbarians (note that this is not the barbarians we are usually thinking of). And Kaikoko Sabaki: Open the country and aid the Shogunate. Sonno Joi win, new slogan "Rick Country and Strong Military", and "Civilization and Enlightenment". Result is that Meiji emperor gets power. 
 
 Japan borrows a lot for the west but change to make it fit. 
 
@@ -126,33 +125,28 @@ Meiji changes:
 * Right to property
 * New forms of industrial production - Silk, cloth, large quantity
 * New forms for time measurement - Use of western calendar. Switch 1873. 
-* Yen
+* Currency is unified (Yen)
+* National postal service
 * Modern infrastructure - Trains
 * Meritocracy
 
 Saigo Takamori tried to overthrow Meiji government, fails. 
 
-Fukozawa studies Dutch and English. Educator and independent thinker 1834 - 1901.
+Fukozawa Yukichi studies Dutch and English. Educator and independent thinker 1834 - 1901.
 
 New imperial constitution comes into effect in 1890, is replaced in 1947. Choose Prussian model instead of Westminster. Is the first Asian constitution. Can't be criticized as a gift from emperor. Establishes a bicameral parliament. "Real" democracy in 1920. 
 
 Government is ruled by Meiji oligarchs but as these die off Hara Kei (a commoner) becomes PM. 
 
 
-Sino Japanese war 1894-5. Defeat Xing empire in China. 
+Sino Japanese war 1894-5. Defeat Xing empire in China. China is no longer the center of Asia. 
 
 Russo war - 1904-5. First defeat of western power. Japan takes Korea. 
 
 1932-1945 political instability. 11 men from 13 cabinets, no political stability, no oligarchs. Military increase distance from civilian life. Hard to understand each other. Military commit terrorism and kill pm. 
 
-The Japanese empire continues to expand, 15 year with China. 
-
-Important war dates: 
+Important war dates during 15 year war: 
 * 1931 - Conquest of Manchuria
 * 1937 - Fighting spreads to rest of China
 * 1941 - Pearl Harbor
 * 1945 Fire bombings in Japanese cities, atomic bombings, surrender. 
-
-
-\-\-\-
-# References
