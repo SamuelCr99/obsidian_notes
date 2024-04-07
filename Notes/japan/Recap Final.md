@@ -240,19 +240,17 @@ Izumo no Okuni created Kabuki, at first they were gender bending comedies. Start
 The Kabuki we saw: Tells a story from Tales of Heike, but it is told differently. We see Buddhism, Tokugawa ethics and sensibilities. 
 
 ## Women in Japan
-In Europe no female writers until middle ages. Also not a lot of famous writers in China before modernity. Females play critical role in Japan. Female write in Japanese characters while males write in Chinese, which leads to men not as emotionally nuanced. 
-
-Before Heian period many famous female writers, not as many after, but always a few. Murasaki Shikibu wrote The Tale of Genji.
-
 Judith Butler argues that gender is performed. Punishment for those that don't follow assigned gender. 
 
-Himiko is first ruler of Japan known by name. She was spiritual Shaman, brother helps her rule but she is ruler. 
+In Europe no female writers until middle ages. Also not a lot of famous writers in China before modernity. Females play critical role in Japan. Female write in Japanese characters while males write in Chinese, which leads to men not as emotionally nuanced. 
 
-Many empresses, usually male served behind the throne. Princess Shotoku was powerful ruler (note not prince Shotoku). 
+Before Heian period many famous female writers, not as many after, but always a few. Murasaki Shikibu wrote The Tale of Genji. Sei Shonagon also famous writer. Poetry practices by both men and women.
 
-Tomoe Gozen is 12th century female warrior, might be fictional.
+Himiko is first ruler of Japan known by name. She was spiritual Shaman, brother helps her rule but she is ruler. Information about her comes from Chinese documents.
 
-Women have a lot of power into Kamakura period, could inherit and own property. Hojo Masako leads Kamakura Shogunate at start. Buddhism one reason for decline as it's very sexist, women can't reach enlightenment until reborn as men. Confucianism also contributes to decline. Right disappear slowly, so not as noticeable.  At end of Kamakura they can't own property anymore. 
+Many empresses, usually male served behind the throne. Usually stayed on throne until acceptable male came of age. Princess Shotoku was powerful ruler (note not prince Shotoku). 
+
+Women have a lot of power into Kamakura period, could inherit and own property. Hojo Masako leads Kamakura Shogunate at start. Tomoe Gozen is 12th century female warrior, might be fictional. Buddhism one reason for decline as it's very sexist, women can't reach enlightenment until reborn as men. Confucianism also contributes to decline. Warrior society favor men. Right disappear slowly, so not as noticeable.  At end of Kamakura they can't own property anymore. 
 
 Examples of female's lower social standing: 
 * Mikudari-han: Men have sole right to divorce, only need to write 3.5 lines. Women could force the issue by asking for help from family.
@@ -260,4 +258,53 @@ Examples of female's lower social standing:
 * Samurai: Parental & confucian women have few rights and no space.
 * Note that there was great geographical variation.
 
-Onna Daigaun: Is a guide for teaching women how to follow upper class rules. 
+Onna Daigaku: Is a guide for teaching women how to follow upper class rules. The actual author is unknown but based on work of Kaibaru Ekiken (1630 - 1714).
+
+During Tokugawa period: 
+* Rights dependent on may things. SPAM plays big difference. 
+	* Samurai families are paternal.
+	* Women in peasant familes have more freedom
+* Could use various pressures to pursue agendas despite lack of legal rights
+
+Large changes to female right during Meiji restoration (1868):
+* Family law is based on samurai. No space for women ideas. The common people ignore this at first. 
+* This is coupled with western ideas of family structure and gender relations
+* Fukuzawa Yukichi calls for more women rights, more education, equal education. 
+
+Good wife & wise mothers. Give space for women, samurai women lack this. This might be progressive for its time, but no rights outside home. 
+
+Before 1945 we see the first feminist movement. Movement for women's suffrage. Women denied citizenship until 1946. 
+
+First wave feminism: Goal is full rights of citizenship. Embraced by some men too. Kishida Toshiko lectures on popular rights movements. She is thrown in jail in 1883 for attacking family rights. Women are not allowed to give speeches to turn to writing. Continues until 1945, when women get rights of citizenship due to American occupation. This gives way to second wave feminism which is about economic rights and true equality.
+
+Higuchi Ichiyo, family of samurai background but lose status. Family falls into poverty so she has to leave school. Turns to writing to support family. Writes about divorce and prostitution. Elegant writing style.
+
+Hiratsuka Raicho (1886 - 1971) froms literary journal called Bluestocking.
+
+Summary: Not one static change for women in Japan, instead ups and downs. Tokugawa/Meiji height of peternal. Rights and relations have changed radically in just last 40 year.
+
+## Diversity in Japan
+Japan is diverse. The idea that Japan is not diverse has real consequences for people not conforming in Japan.
+
+The old meaning of the word sushi meant pickled human head.
+
+What looks natural is often culturally constructed.
+
+Japan does not celebrate plurality.
+
+Zainichi: Descendants of ethnic Koreans who arrived during colonial period. Forced to do dirty and dangerous jobs. Many speak no Korean, but have to carry Korean passport. Have hard time getting Japanese citizenship. 
+
+Rougly 15000 get Japanese citizenship per year, compare to Singapore's 17000, all this while Japan has population decline. 
+
+Ainu: Indigenous population of Hokkaido. Language and culture not related to "Japanese". Almost destroyed by "Japan". Revival movement in past 3 decades. Japan's first colony. Often portrayed as strange and scare, even today. 
+
+Burakumin: Outcast group. Outside SPAM in Tokugawa order. "Liberated" in 1871, but still face prejudice. Culturally "Japanese", identifiable only by community. Mark areas where Burakumin live.
+
+East/West divide in Japan, food & dialect different. 
+
+Yet there is a sense of Japanese identity: 
+* Racial linguistic, cultural, historical homogeneity.
+* Japanese identity via "blood"
+* Identity takes from after 1868
+* Relies partly on the idea of "National Learning" scholars of the Tokugawa period
+* Imaginary identities still can have real effects in the real world
